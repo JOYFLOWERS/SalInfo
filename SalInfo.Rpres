@@ -62,16 +62,23 @@ grid.raster(img)
 # mode: selfcontained
 ```
 
-<p style="font-size:26px"><span style="font-weight:bold; color:#7f0df2">The way to experience this tool is to try it LIVE: Go to <a  href="https://joyflowers.shinyapps.io/SalInfo">https://joyflowers.shinyapps.io/SalInfo</a> to try it now.</span></p>
+```{r echo=FALSE}
+#The code generated to create the OverallSal.txt is in maxsal.R. It was pre-compiled to save the user some run time delay.
+OverallSal <- read.table(file="OverallSal.txt",header=TRUE)
+```
+
+<p style="font-size:20px">The overall highest annual salary is `r OverallSal$Position[1]` at `r OverallSal$County[1]` County for `r OverallSal$Tot.Wages[1]`. The overall lowest annual salary is `r OverallSal$Position[3]` at `r OverallSal$County[3]` County for `r OverallSal$Tot.Wages[3]`. The average overall annual salary is `r OverallSal$Tot.Wages[2]`. Curious?   To view salary by positions, click below.</p>
+
+<p style="font-size:26px"><span style="font-weight:bold; color:#7f0df2">The way to experience this tool is to try it LIVE: Go to <a  href="https://joyflowers.shinyapps.io/SalInfo">https://joyflowers.shinyapps.io/SalInfo</a> to try it now.</span></p> 
 
 ```{r echo=FALSE}
-VisNum <- read.table(file="SalInfoPresNum.txt",header=TRUE)
-VisNum$NumVis <- VisNum$NumVis+1
-write.table(VisNum,file="SalInfoPresNum.txt",row.names=FALSE) 
+#This code worked in RPresenter but did not work interactively when published so I took it out.
+#VisNum <- read.table(file="SalInfoPresNum.txt",header=TRUE)
+#VisNum$NumVis <- VisNum$NumVis+1
+#write.table(VisNum,file="SalInfoPresNum.txt",row.names=FALSE) 
 #To Start the Count:
 #NumVis <- 0 
 #VisNum <- data.frame(NumVis)
 #write.table(VisNum,file="SalInfoPresNum.txt",row.names=FALSE)
 ```
 
-<p style="font-size:14px">This presentation has been viewed `r VisNum$NumVis` times so far.</p>
