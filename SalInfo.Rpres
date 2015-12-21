@@ -67,11 +67,11 @@ grid.raster(img)
 ```{r echo=FALSE}
 VisNum <- read.csv(file="SalInfoPresNum.csv",header=TRUE)
 VisNum$NumVis <- VisNum$NumVis+1
-write.csv(VisNum$NumVis,file="SalInfoPresNum.csv",row.names=FALSE)
-#To Start the Count:
+write.csv(VisNum,file="SalInfoPresNum.csv",row.names=FALSE)
+#To Start the Count: 
 #NumVis <- 0 
 #VisNum <- data.frame(NumVis)
 #write.csv(VisNum,file="SalInfoPresNum.csv",row.names=FALSE)
 ```
 
-<p style="font-size:14px">This presentation has been viewed `r VisNum$NumVis` times.</p>
+<p style="font-size:14px">This presentation has been viewed `r VisNum$NumVis` times so far.</p>
