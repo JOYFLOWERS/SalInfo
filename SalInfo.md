@@ -54,8 +54,11 @@ Example and Conclusion
  
 ![plot of chunk unnamed-chunk-1](SalInfo-figure/unnamed-chunk-1-1.png) 
 
-<p style="font-size:26px"><span style="font-weight:bold; color:#7f0df2">The way to experience this tool is to try it LIVE: Go to <a  href="https://joyflowers.shinyapps.io/SalInfo">https://joyflowers.shinyapps.io/SalInfo</a> to try it now.</span></p>
+
+
+<p style="font-size:20px">The overall highest annual salary is Faculty Physician-Contract at Kern County for $ $ 998,429. The overall lowest annual salary is Election Clerk at Sacramento County for $ $      14. The average overall annual salary is $ $  73,996. Curious?   To view salary by positions, click below.</p> 
+
+<p style="font-size:26px"><span style="font-weight:bold; color:#7f0df2">The way to experience this tool is to try it LIVE: Go to <a  href="https://joyflowers.shinyapps.io/SalInfo">https://joyflowers.shinyapps.io/SalInfo</a> to try it now.</span></p> 
 
 
 
-<p style="font-size:14px">This presentation has been viewed 1 times so far.</p>

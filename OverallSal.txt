@@ -1,0 +1,4 @@
+"Range" "Position" "County" "Dept" "Tot.Wages" "Tot.Ret.Hlth" "Population" "Pens.Formula"
+"Highest" "Faculty Physician-Contract" "Kern" "Kern Medical Center" "$ $ 998,429" 23532 873092 "#N/A"
+"Closest to the Mean" "Social Services Program Supvsr" "Fresno" "Department of Social Services" "$ $  73,996" 35447 964040 "2.5% at 55"
+"Lowest" "Election Clerk" "Sacramento" "Voter Registration & Elections" "$ $      14" 1 1454406 "N/A"
