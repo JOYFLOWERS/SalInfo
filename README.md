@@ -1,2 +1,2 @@
-# SalInfo
-California County Salary Information Highest Lowest and Average for 2013 data
+# Salary Benchmarking Tool 
+This assignment consists of a web application and a presentation explaining the features of the application.
