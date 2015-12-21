@@ -58,4 +58,4 @@ Example and Conclusion
 
 
 
-<p style="font-size:14px">This presentation has been viewed 1 times.</p>
+<p style="font-size:14px">This presentation has been viewed 1 times so far.</p>

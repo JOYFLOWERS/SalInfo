@@ -65,13 +65,13 @@ grid.raster(img)
 <p style="font-size:26px"><span style="font-weight:bold; color:#7f0df2">The way to experience this tool is to try it LIVE: Go to <a  href="https://joyflowers.shinyapps.io/SalInfo">https://joyflowers.shinyapps.io/SalInfo</a> to try it now.</span></p>
 
 ```{r echo=FALSE}
-VisNum <- read.csv(file="SalInfoPresNum.csv",header=TRUE)
+VisNum <- read.table(file="SalInfoPresNum.txt",header=TRUE)
 VisNum$NumVis <- VisNum$NumVis+1
-write.csv(VisNum$NumVis,file="SalInfoPresNum.csv",row.names=FALSE)
+write.table(VisNum,file="SalInfoPresNum.txt",row.names=FALSE) 
 #To Start the Count:
 #NumVis <- 0 
 #VisNum <- data.frame(NumVis)
-#write.csv(VisNum,file="SalInfoPresNum.csv",row.names=FALSE)
+#write.table(VisNum,file="SalInfoPresNum.txt",row.names=FALSE)
 ```
 
-<p style="font-size:14px">This presentation has been viewed `r VisNum$NumVis` times.</p>
+<p style="font-size:14px">This presentation has been viewed `r VisNum$NumVis` times so far.</p>
