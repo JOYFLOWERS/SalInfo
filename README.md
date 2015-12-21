@@ -16,9 +16,9 @@ This assignment consists of a web application using Shiny from RStudio and a pre
                    Results are shown below the instructions. <br>Notes: The data was scrubbed attempting to remove anyone who worked 
                    just a partial year (by comparing the earned salary to the minimum salary range). Also anyone with a zero 
                    salary was eliminated. These reduced the number of records from 353,453 to 233,623. The employee names 
-                   were not available and therefore are not displayed. <br>The Shiny application can be run at 
+                   were not available and therefore are not displayed. The Shiny application can be run at 
                    <a href="https://joyflowers.shinyapps.io/SalInfo">https://joyflowers.shinyapps.io/SalInfo</a>.
-                   <br>The presentation lists key features of the application. It can be run at  
+                   <br><br>The presentation lists key features of the application. It can be run at  
                    <a href="http://joyflowers.github.io/SalInfo/SalInfo.html#/">http://joyflowers.github.io/SalInfo/SalInfo.html#/</a>.
                    The presentation includes reading from a summary file. The code to generate this file can be found in an R script on 
                    github called maxsal.R. This file (OverallSal.txt) was created so the user would not need to wait while viewing the 
