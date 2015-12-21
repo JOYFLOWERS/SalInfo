@@ -13,11 +13,11 @@ This assignment consists of a web application using Shiny from RStudio and a pre
                    new positions into the Search without even having to hit enter into the search until done. This tool will give some 
                    insight into California County government’s pay structures. Compare away! <b>Prior to the first search, the data file
                    may take up to a couple of minutes to download as it is coming live from the Internet.</b> 
-                   Results are shown below the instructions. <br>Notes: The data was scrubbed attempting to remove anyone who worked 
-                   just a partial year (by comparing the earned salary to the minimum salary range). Also anyone with a zero 
-                   salary was eliminated. These reduced the number of records from 353,453 to 233,623. The employee names 
-                   were not available and therefore are not displayed. The Shiny application can be run at 
-                   <a href="https://joyflowers.shinyapps.io/SalInfo">https://joyflowers.shinyapps.io/SalInfo</a>.
+                   Results are shown below the instructions. <br>Notes: The ui.R and server.R files are included on github. The  
+                   data was scrubbed attempting to remove anyone who worked just a partial year (by comparing the earned salary to the 
+                   minimum salary range). Also anyone with a zero salary was eliminated. These reduced the number of records from 
+                   353,453 to 233,623. The employee names were not available and therefore are not displayed. The Shiny application
+                    can be run at <a href="https://joyflowers.shinyapps.io/SalInfo">https://joyflowers.shinyapps.io/SalInfo</a>.
                    <br><br>The presentation lists key features of the application. It can be run at  
                    <a href="http://joyflowers.github.io/SalInfo/SalInfo.html#/">http://joyflowers.github.io/SalInfo/SalInfo.html#/</a>.
                    The presentation includes reading from a summary file. The code to generate this file can be found in an R script on 
